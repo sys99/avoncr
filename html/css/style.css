@@ -1,0 +1,252 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700,300);
+
+body{
+	margin:0;
+	padding: 0;
+}
+
+.externa{
+	max-width:940px;
+	padding-left:40px;
+	padding-right:40px;
+	margin:0 auto;
+}
+
+/* COLORES */
+.pinkText{
+	color:#EC008C;
+}
+
+/* TIPOGRAFÍA */
+body{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 0.813em;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Quicksand',
+	sans-serif;font-weight:400;
+}
+
+/* ENLACES */
+
+a:link,a:visited{
+	color:#ec008c;
+	text-decoration: none;
+}
+a:hover,a:visited:hover{
+	color:#666;
+	text-decoration: underline;
+}
+
+
+/* ENCABEZADO */
+#encabezado{
+	background-image: url(../images/background_header.jpg);
+	background-repeat: repeat-x;
+	height:130px;
+}
+
+#encabezado .row-fluid{
+	padding-top:20px;
+}
+
+#menu > ul {
+	font-family: 'Quicksand', sans-serif;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#menu > ul > li{display: inline-block;}
+
+#menu > ul > li:last-child{
+	background-color: #ec008c;
+	border-radius: 10px 10px 0 0;
+	padding-bottom: 5px;
+}
+
+#menu a{
+	display: block;
+	padding:0 15px;
+	color:#fff;
+	text-decoration: none;
+	font-size: 1.20em;
+}
+
+/* BARRA LATERAL */
+
+nav.seccion > ul{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+nav.seccion a{
+	display: block;
+	border-bottom: dotted 1px;
+	color:#666;
+	padding: 7px 15px;
+	font-size: 0.750em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+nav.seccion a:hover{
+	color:#EC008C;
+}
+
+nav.seccion h1{
+position: relative;
+background: url("../images/cinta.png") no-repeat scroll 0px 0px transparent;
+left: -24px;
+top: -9px;
+height: 27px;
+line-height: 27px;
+padding: 9px 20px 0px 10px;
+width: 194px;
+text-align: right;
+text-transform: uppercase;
+font-size: 1.25em;
+color:#fff;
+margin-bottom: 0px;
+font-weight: 700;
+}
+
+/* CONTENIDO */
+
+#contenido{
+	padding-top: 20px;
+	background: url(../images/page_bottom_background.jpg),url(../images/page_background.jpg);
+	background-repeat:no-repeat,repeat-y;
+	background-position:bottom;
+	margin-bottom: 40px;
+}
+
+/* ARTICULOS */
+
+.articulo h2{
+	color:#EC008C;
+	border-bottom:dotted 1px;
+}
+
+/* PRODUCTOS */
+
+.row1{
+	border-bottom: solid 3px #2183C5;
+	padding-bottom: 20px;
+}
+
+.articulo-producto h1, .articulo-producto h2, .articulo-producto h3{
+	font-family: arial,sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.articulo-producto h1{
+	text-transform: uppercase;
+	text-decoration: underline;
+	color:#2183C5;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.articulo-producto h2{
+	color:#2183C5;
+	border-bottom: dotted 1px;
+}
+
+.frase{
+	text-transform: uppercase;
+	margin-top: 5px;
+	font-size: 0.925em;
+	font-weight: 700;
+}
+.lista-productos{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.lista-productos > li{
+	padding: 20px 1px;
+	float: left;
+	text-align: center;
+	width: 137px;
+	background: none repeat scroll 0% 0% transparent;
+}
+
+.lista-productos > li span{
+	background: none repeat scroll 0% 0% #2383C5;
+	color: #FFF;
+	display: block;
+	border-bottom: 3px solid #B3D5F0;
+	height: 45px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 13px;
+	padding: 2px;
+}
+.lista-productos > li a:hover span{
+	background-color: #B3D5F0;
+	color: #2383C5;
+	border-bottom: 3px solid #2383C5;
+}
+
+.lista-productos > li a{
+	text-decoration: none;
+}
+/* PIE */
+
+#pie{
+	padding-top: 15px;
+	border-top: solid 1px #ccc;
+}
+
+#menu-pie > ul{
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+#menu-pie > ul > li{
+	display: inline-block;
+	text-align: center;
+}
+
+#menu-pie a{
+	display: block;
+	padding:0 10px;
+	border-left:solid 1px #ec008c;
+	color:#000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#menu-pie li:first-child a,#terminos li:first-child a{
+	border: 0;
+}
+
+#terminos{
+	padding:10px 0;
+}
+
+#terminos ul {
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	font-size: 0.80em;
+}
+#terminos > ul > li{
+	display: inline-block;
+	text-align: center;
+}
+
+#terminos a{
+	display: block;
+	padding:0 5px;
+	border-left:solid 1px #000;
+	color:#000;
+	text-decoration: none;
+}
+
+
