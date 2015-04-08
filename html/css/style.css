@@ -250,3 +250,27 @@ font-weight: 700;
 }
 
 
+/* FORMULARIO */
+
+form ul li {
+    display: block;
+    clear: both;
+    padding: 5px 0px 0px;
+    position: relative;
+}
+
+.formContent label {
+    text-align: left;
+    width: 120px;
+    padding-right: 0px;
+}
+
+.formContent input[type="text"] {
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 0px 5px;
+    width: 205px;
+    height: 23px;
+    color: #333;
+    float: left;
+}
